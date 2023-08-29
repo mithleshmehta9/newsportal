@@ -1,0 +1,63 @@
+/* Navbar.css */
+/* Add your custom styles here for the Navbar component */
+
+/* Wrap the entire Navbar in a <nav> element */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  flex-basis: auto;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+/* Customize the logo */
+.logo {
+  flex: 0 0 auto;
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+}
+
+/* Style the navigation links */
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+/* Style the login and signup buttons */
+.sign-btn {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.sign-btn button {
+  margin-left: 10px;
+  margin-right: 30px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-btn button:hover {
+  background-color: #0056b3;
+}

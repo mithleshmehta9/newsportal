@@ -1,0 +1,87 @@
+
+
+/* Optional: Add a background color or image to the form container */
+/* .form-container {
+  background-color: #f9f9f9;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* input[type="file"] {
+    display: none;
+  } */
+  
+  .file-input-label {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-input-label:hover {
+    background-color: #45a049;
+  }
+  
+  .file-name {
+    margin-left: 10px;
+    color: #555;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+   
+  /* Optional: Add additional styles for form validation error messages */
+  /* .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  } */
+  
